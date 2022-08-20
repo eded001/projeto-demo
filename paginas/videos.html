@@ -14,13 +14,16 @@
     <main>
         <section>
             <article>
-                <p>Usando a tag <code>&lt;video&gt;</code> é possível inserir um vídeo, de diferentes formatos(.MP4, WebpM, OGG...), no documento.</p>
+                <p>Usando a tag <code>&lt;video&gt;</code> é possível inserir um vídeo, de diferentes formatos(.MP4, WebpM, OGG...), no documento. É possível usar também a tag <code>&lt;source&gt;</code> para abrir outros formatos caso o seu navegador não suporte.</p>
             </article>
-            <video src="../vídeo/video.mp4" controls></video>
+            <video width="314" height="240" controls>
+                <source src="../videos/enter-sandman.mp4" type="video/mp4">
+                <source src="../videos/enter-sandman.ogg" type="video/ogg">
+            </video>
         </section>
+        <aside>
+            <p id="centro"><a href="../site-demo.html">Voltar para o início</a></p>
+        </aside>
     </main>
-    <aside>
-        <p id="centro"><a href="../site-demo.html">Voltar para o início</a></p>
-    </aside>
 </body>
 </html>
