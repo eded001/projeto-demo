@@ -112,3 +112,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+footer {
+    font-family: var(--fonte-padrao);
+    font-size: small;
+
+    text-align: center;
+
+    color: white;
+}
+
+.branco {
+    color: white;
+}

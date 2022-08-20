@@ -35,7 +35,7 @@ body {
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -72,7 +72,6 @@ main {
 
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
 }
 
 article {
@@ -93,6 +92,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 }
 
 #centro {
@@ -109,4 +109,17 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    font-family: var(--fonte-padrao);
+    font-size: small;
+
+    text-align: center;
+
+    color: white;
+}
+
+.branco {
+    color: white;
 }

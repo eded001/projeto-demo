@@ -60,6 +60,19 @@ header > h1 {
     padding: 10px;
 }
 
+footer {
+    font-family: var(--fonte-padrao);
+    font-size: small;
+
+    text-align: center;
+
+    color: white;
+}
+
+.branco {
+    color: white;
+}
+
 section {
     background-color: white;
     text-align: center;
