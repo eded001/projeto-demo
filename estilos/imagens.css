@@ -34,6 +34,7 @@ body {
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -75,11 +76,12 @@ main {
 }
 
 article {
-    padding: 20px;
+    padding: 20px 10px;
 }
 
-span > p {
+p {
     text-align: justify;
+    text-indent: 20px;
 
     font-family: var(--fonte-padrao);
     font-size: 20px;
@@ -87,16 +89,15 @@ span > p {
     padding: 10px 0px;
 }
 
-p {
-    text-align: center;
-
-    font-family: var(--fonte-padrao);
-    font-size: 20px;
-}
-
 img {
     display:inline-block;
     margin: 0% 10%;
+}
+
+#centro {
+    text-align: center;
+
+    font-family: var(--fonte-padrao);
 }
 
 a {
