@@ -15,7 +15,8 @@
         <article>
             <p>Usando a tag <code>&lt;img&gt;</code> é possível inserir uma imagem, de diferentes formatos(JPEG, PNG, GIF...), no documento. Também pode-se usar <code>&lt;picture&gt;</code> e o <code>&lt;figcaption&gt;</code> para melhorar sua experiência, de modo que altere a estrutura da imagem.</p>
             <picture>
-                <img src="../imagens/felipe.jpg" alt="felipe">
+                <source media="(max-width: 768)" srcset="../imagens/felipe-p.jpg">
+                <img src="../imagens/felipe.jpg" alt="Felipe hacker">
             </picture>
         </article>
         <aside>
