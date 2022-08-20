@@ -1,0 +1,110 @@
+@charset 'UFT-8';
+
+* {
+    padding: 0px;
+}
+
+:root {
+    --cor1: hsl(6, 60%, 60%);
+    --cor2: hsl(22, 100%, 65%);
+    --cor3: hsl(54, 100%, 65%);
+    --cor4: hsl(111, 48%, 57%);
+    --cor5: hsl(204, 63%, 61%);
+
+    --fonte-titulo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte-padrao: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(-45deg, var(--cor1), var(--cor2));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    min-width: 300px;
+    max-width: 570px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -22px;
+
+    font-family: var(--fonte-titulo);
+}
+
+header > h1 {
+    text-align: center;
+
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    min-width: 300px;
+    max-width: 570px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+article {
+    padding: 20px;
+}
+
+span > p {
+    text-align: justify;
+
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+
+    padding: 10px 0px;
+}
+
+p {
+    text-align: center;
+
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+}
+
+img {
+    display:inline-block;
+    margin: 0% 9%;
+}
+
+a {
+    text-decoration: none;
+
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
