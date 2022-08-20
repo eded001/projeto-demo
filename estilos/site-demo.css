@@ -15,14 +15,6 @@
     --fonte-padrao: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body {
-    background: linear-gradient(-45deg, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor5));
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-    height: 100vh;
-    overflow: hidden;
-}
-
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -37,6 +29,14 @@ body {
     }
 }
 
+body {
+    background: linear-gradient(-45deg, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor5));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+    overflow: hidden;
+}
+
 header {
     background-color: black;
     color: white;
@@ -47,8 +47,8 @@ header {
     min-width: 300px;
     max-width: 570px;
 
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
     margin-top: 10%;
     margin-bottom: -22px;
 
@@ -71,8 +71,8 @@ section {
     min-width: 300px;
     max-width: 570px;
 
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0px;
 }
 
