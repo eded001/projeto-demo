@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+* {
+    padding: 0px;
+}
+
+:root {
+    --cor1: hsl(6, 60%, 60%);
+    --cor2: hsl(22, 100%, 65%);
+    --cor3: hsl(54, 100%, 65%);
+    --cor4: hsl(111, 48%, 57%);
+    --cor5: hsl(204, 63%, 61%);
+
+    --fonte-titulo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte-padrao: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(-45deg, var(--cor2), var(--cor3));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+    overflow: hidden;
+}
