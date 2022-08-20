@@ -78,6 +78,13 @@ article {
     padding: 2px 10px;
 }
 
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+
 p {
     text-align: justify;
     text-indent: 20px;
@@ -97,6 +104,12 @@ video {
     border-radius: 5px;
 }
 
+aside {
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 #centro {
     text-align: center;
 
@@ -106,7 +119,7 @@ video {
 a {
     text-decoration: none;
 
-    color: black;
+    color: white;
 }
 
 a:hover {
