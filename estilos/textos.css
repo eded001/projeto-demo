@@ -10,7 +10,7 @@
     --cor3: hsl(54, 100%, 65%);
     --cor4: hsl(111, 48%, 57%);
     --cor5: hsl(204, 63%, 61%);
-    --cor6: hsl(204, 63% 61%);
+    --cor6: hsl(273, 70%, 62%);
 
     --fonte-titulo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonte-padrao: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,7 +31,7 @@
 }
 
 body {
-    background: linear-gradient(-45deg, var(--cor2), var(--cor5));
+    background: linear-gradient(-45deg, var(--cor5), var(--cor6));
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     height: 100vh;
