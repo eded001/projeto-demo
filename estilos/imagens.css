@@ -92,13 +92,11 @@ p {
 
     font-family: var(--fonte-padrao);
     font-size: 20px;
-
-    margin-bottom:0px;
 }
 
 img {
     display:inline-block;
-    margin: 0% 9%;
+    margin: 0% 10%;
 }
 
 a {
