@@ -95,6 +95,10 @@ p {
     padding: 10px 0px;
 }
 
+#link-inicio {
+    color: white;
+}
+
 aside {
     background-color: black;
     border-bottom-left-radius: 5px;
