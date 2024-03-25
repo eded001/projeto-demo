@@ -1,2 +1,3 @@
-# Site de demonstração
- Clique <a href="https://eded001.github.io/projeto-demo/" target="_blank">aqui</a> ou aponte a câmera para acessar o site.
+# Site de demonstração para a aula
+ - Site de demonstração para aula do itinerário da escola
+ - Aborda sobre algumas das principais tags do HTML
